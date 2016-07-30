@@ -16,7 +16,7 @@ add_action( 'wp_default_scripts', function( $scripts ) {
 
 function enqueue_parent_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css' );
-    /*wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js', array(), null, false );*/
+    wp_register_script( 'list',  get_template_directory_uri().'/js/list.js' , array(), null, false );
 
     /*wp_enqueue_script( 'bootstrap-js' );
     wp_enqueue_style( 'bootstrap-css' );*/
