@@ -41,8 +41,7 @@ ul{
     margin: auto;
     display: block;
     width: 80%;
-    max-width: 700px;
-    height: 80%;
+    max-width: 300px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
