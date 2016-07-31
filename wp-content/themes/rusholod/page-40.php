@@ -18,7 +18,8 @@ $results = $wpdb->get_results( 'SELECT * FROM instruments', OBJECT );
 foreach ($results as $result){
     echo "<li>";
         echo "<h3 class=\"name\">";
-    echo "<img src=\"$result->img\" class=\"img-preview\"  id=\"img_$result->id\"/>";
+    $img = !empty($result->img) ? $result->img : get_stylesheet_directory_uri().'/images/no_img.png'; ;
+    echo "<img src=\"$img\" class=\"img-preview\"  id=\"img_$result->id\"/>";
 
     echo $result->name;
         echo "</h3>";
