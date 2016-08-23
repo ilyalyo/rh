@@ -2,7 +2,7 @@
 get_header(); ?>
 
 <main id="main" class="site-main" role="main">
-
+<div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
             <div class="carousel slide" id="theCarousel" style="z-index:1">
@@ -42,22 +42,22 @@ get_header(); ?>
             </div>
         </div>
     </div>
-
+</div>
     <div id="content" class="site-content">
 
 
         <div class="row">
             <div class="col-md-3 chapter">
-                <h3>Направления <s>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
+                <h3>Направления <s style="font-size: 19px;padding-left: 25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
             </div>
         </div>
 
 
         <div class="row">
 
-            <div class="col-md-6" style="position: relative;">
+            <div class="col-md-6">
                 <div>
-                    <img src="../../../wp-includes/images/rusholod/img1.jpg">
+                    <img src="../../../wp-includes/images/rusholod/img1.jpg" class="img-components">
                 </div>
                 <div class="text-over-pic">
                     <h2>ЧИЛЛЕРЫ</h2>
@@ -65,9 +65,9 @@ get_header(); ?>
                 </div>
             </div>
 
-            <div class="col-md-6" style="position: relative;">
+            <div class="col-md-6">
                 <div>
-                    <img src="../../../wp-includes/images/rusholod/img2.jpg">
+                    <img src="../../../wp-includes/images/rusholod/img2.jpg" class="img-components">
                 </div>
                 <div class="text-over-pic">
                     <h2>РУССКИЕ <br> ТЕПЛОВЫЕ НАСОСЫ</h2>
@@ -77,9 +77,9 @@ get_header(); ?>
 
         <div class="row">
 
-            <div class="col-md-6" style="position: relative; margin-top: 3em;">
+            <div class="col-md-6">
                 <div>
-                    <img src="../../../wp-includes/images/rusholod/img3.jpg">
+                    <img src="../../../wp-includes/images/rusholod/img3.jpg" class="img-components">
                 </div>
                 <div class="text-over-pic">
                     <h2>КОМПЛЕКТУЮЩИЕ</h2>
@@ -87,9 +87,9 @@ get_header(); ?>
                 </div>
             </div>
 
-            <div class="col-md-6" style="position: relative; margin-top: 3em;">
+            <div class="col-md-6">
                 <div>
-                    <img src="../../../wp-includes/images/rusholod/img4.jpg">
+                    <img src="../../../wp-includes/images/rusholod/img4.jpg" class="img-components">
                 </div>
                 <div class="text-over-pic">
                     <h2>ХЛАДОН</h2>
@@ -97,18 +97,6 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-        <!--    <div class="row">-->
-        <!--        <div class="col-md-6 banner" style="position: relative;">-->
-        <!--            <div style="position: absolute;">-->
-        <!--                <img src="../../../wp-includes/images/rusholod/img3.jpg">-->
-        <!--            </div>-->
-        <!---->
-        <!--        </div>-->
-        <!--        <div class="col-md-6">-->
-        <!--            <img src="../../../wp-includes/images/rusholod/img4.jpg">-->
-        <!--        </div>-->
-        <!--    </div>-->
-
 
         <div class="container"
              style="background: url('../../../wp-includes/images/rusholod/1998-capt.png') no-repeat; background-position: right;
@@ -116,7 +104,7 @@ get_header(); ?>
 
             <div class="row">
                 <div class="chapter">
-                    <h3>О компании в цифрах <s>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
+                    <h3>О компании в цифрах <s style="font-size: 19px;padding-left: 25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
                 </div>
             </div>
 
@@ -136,7 +124,7 @@ get_header(); ?>
 
         <div class="row">
             <div class="col-md-4 chapter">
-                <h3>Сертификаты <s>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
+                <h3>Сертификаты <s style="font-size: 19px;padding-left: 25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</s></h3>
             </div>
         </div>
 
@@ -152,7 +140,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="row pict-pad">
                         <img src="../../../wp-includes/images/rusholod/sert2.jpg">
                     </div>
@@ -160,63 +148,13 @@ get_header(); ?>
                         <img src="../../../wp-includes/images/rusholod/sert4.jpg">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="row pict-pad" style="margin-top: 75%;">
                         <img src="../../../wp-includes/images/rusholod/sert5.jpg">
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
-       <!-- <div class="row">
-            <div class="inner">
-                <ul class="banner-list">
-                    <li class="banner__item">
-                        <a href="#" class="link link_no-border">
-                            <img src="../../../wp-includes/images/rusholod/img1.jpg" alt=""
-                                 class="banner__image js-svg-image">
-                        </a>
-                        <h2 class="banner__title"><a href="#" class="link
-link_yellow-black-bg link_banner">Чиллеры</a></h2>
-                        <p class="banner__text">Индивидуальный подход для нестандартных задач.</p>
-                    </li>
-
-                    <li class="banner__item">
-                        <a href="#" class="link link_no-border">
-                            <img src="../../../wp-includes/images/rusholod/landing_2.png"
-                                 alt="" class="banner__image js-svg-image">
-                        </a>
-                        <h2 class="banner__title"><a href="#" class="link
-link_yellow-black-bg link_banner">Тепловые насосы</a></h2>
-                        <p class="banner__text">Низкие ставки и простота урегулирования претензий.</p>
-                    </li>
-
-                    <li class="banner__item">
-                        <a href="#" tabindex="-1" class="link link_no-border">
-                            <img src="../../../wp-includes/images/rusholod/landing_3.png"
-                                 alt="" class="banner__image js-svg-image">
-                        </a>
-                        <h2 class="banner__title"><a href="#" tabindex="-1" class="link
-link_yellow-black-bg link_banner">Комплектующие</a></h2>
-                        <p class="banner__text">Новая комплексная услуга на лучших складах.</p>
-                    </li>
-
-                    <li class="banner__item">
-                        <a href="#" tabindex="-1" class="link link_no-border">
-                            <img src="../../../wp-includes/images/rusholod/landing_4.png"
-                                 alt="" class="banner__image js-svg-image">
-                        </a>
-                        <h2 class="banner__title"><a href="#" tabindex="-1" class="link
-link_yellow-black-bg link_banner">Хладон</a></h2>
-                        <p class="banner__text">Оповещения о ваших заказах и новости всегда под рукой</p>
-                    </li>
-                </ul>
-
-            </div>
-        </div>-->
 
     </div>
 </main><!-- .site-main -->
@@ -316,6 +254,7 @@ crossorigin = "anonymous" >
     /*}*/
 
     .text-over-pic {
+        letter-spacing: 2px;
         position: absolute;
         top: 35%;
         left: 0;
@@ -328,7 +267,10 @@ crossorigin = "anonymous" >
         font-family: GothamProBlack;
         font-size: 2em;
     }
+    #masthead{
+         position: absolute;
 
+     }
     .text-over-pic p{
         font-family: GothamProRegular;
         font-size: 1em;

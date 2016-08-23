@@ -39,7 +39,7 @@ foreach ($results as $result){
     <table style="text-align: left; width: 960px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
         <tbody>
         <tr>
-            <td colspan="7" rowspan="1" style="vertical-align: top; width: 129px; text-align: center; background-color: rgba(61, 61, 61, 0.74);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <big>Среднетемпературные компрессоры ASPERA EMBRACO&nbsp; на хладоне R134a</big><br>
+            <td colspan="7" rowspan="1" style="vertical-align: top; width: 129px; text-align: center; background-color: rgb(51, 102, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <big>Среднетемпературные компрессоры ASPERA EMBRACO&nbsp; на хладоне R134a</big><br>
                 <br>
             </td>
         </tr>
@@ -467,7 +467,7 @@ foreach ($results as $result){
 
         <tbody>
         <tr>
-            <td colspan="7" rowspan="1" style="vertical-align: top; width: 129px; text-align: center; background-color: rgba(61, 61, 61, 0.74);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <big>Низкотемпературные компрессоры ASPERA EMBRACO&nbsp; на хладоне R134a</big><br>
+            <td colspan="7" rowspan="1" style="vertical-align: top; width: 129px; text-align: center; background-color: rgb(51, 51, 153);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <big>Низкотемпературные компрессоры ASPERA EMBRACO&nbsp; на хладоне R134a</big><br>
                 <br>
             </td>
         </tr>
@@ -748,7 +748,7 @@ foreach ($results as $result){
 
         <tbody>
         <tr>
-            <td colspan="8" rowspan="1" style="vertical-align: top; width: 104px; text-align: center; background-color: rgba(61, 61, 61, 0.74);"><big>&nbsp;&nbsp;&nbsp;&nbsp; Среднетемпературные компрессоры ASPERA EMBRACO на хладоне R404a<br>
+            <td colspan="8" rowspan="1" style="vertical-align: top; width: 104px; text-align: center; background-color: rgb(255, 153, 0);"><big>&nbsp;&nbsp;&nbsp;&nbsp; Среднетемпературные компрессоры ASPERA EMBRACO на хладоне R404a<br>
                     <br>
                 </big></td>
         </tr>
@@ -1109,7 +1109,7 @@ foreach ($results as $result){
     <table style="text-align: left; width: 960px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
         <tbody>
         <tr>
-            <td colspan="8" rowspan="1" style="vertical-align: top; width: 104px; text-align: center; background-color: rgba(61, 61, 61, 0.74);"><big>&nbsp;&nbsp;&nbsp;&nbsp; Низкотемпературные компрессоры ASPERA EMBRACO на хладоне R404a<br>
+            <td colspan="8" rowspan="1" style="vertical-align: top; width: 104px; text-align: center; background-color: rgb(153, 51, 0);"><big>&nbsp;&nbsp;&nbsp;&nbsp; Низкотемпературные компрессоры ASPERA EMBRACO на хладоне R404a<br>
                     <br>
                 </big></td>
         </tr>
@@ -1500,7 +1500,7 @@ foreach ($results as $result){
 
         <tbody>
         <tr>
-            <td colspan="8" rowspan="1" style="vertical-align: top; width: 104px; text-align: center; background-color: rgba(61, 61, 61, 0.74);"><big>&nbsp;&nbsp;&nbsp;&nbsp; Среднетемпературные компрессоры ASPERA EMBRACO на хладоне R22<br>
+            <td colspan="8" rowspan="1" style="vertical-align: top; width: 104px; text-align: center; background-color: rgb(0, 204, 102);;"><big>&nbsp;&nbsp;&nbsp;&nbsp; Среднетемпературные компрессоры ASPERA EMBRACO на хладоне R22<br>
                     <br>
                 </big></td>
         </tr>
@@ -1638,7 +1638,7 @@ foreach ($results as $result){
     <table style="text-align: left; width: 960px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
         <tbody>
         <tr>
-            <td colspan="6" rowspan="1" style="vertical-align: top; width: 190px; text-align: center; background-color: rgba(61, 61, 61, 0.74);"><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Низкотемпературные компрессоры ASPERA EMBRACO на хладоне R22<br>
+            <td colspan="6" rowspan="1" style="vertical-align: top; width: 190px; text-align: center; background-color: rgb(0, 128, 0);"><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Низкотемпературные компрессоры ASPERA EMBRACO на хладоне R22<br>
                     <br>
                 </big></td>
         </tr>
