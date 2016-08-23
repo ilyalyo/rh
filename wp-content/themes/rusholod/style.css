@@ -101,8 +101,12 @@ ul{
 /*###############END#########################*/
 
 #masthead{
-    background-color: #3D3D3D;
+    background-color: rgba(0, 0, 0, 0.5);;
     margin-bottom: 30px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 100%;
 }
 .main-navigation a:focus {
     color: white;
@@ -165,12 +169,46 @@ ul{
     }
 }
 
+/* font-family: "GothamProRegular"; */
 @font-face {
-    font-family: GothaPro;
-    src: url(./fonts/GothaProReg.otf);
+    font-family: "GothamProRegular";
+    src: url("./fonts/GothamProRegular/GothamProRegular.eot");
+    src: url("./fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+    url("./fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+    font-style: normal;
     font-weight: normal;
 }
-
+/* font-family: "GothamProBold"; */
+@font-face {
+    font-family: "GothamProBold";
+    src: url("./fonts/GothamProBold/GothamProBold.eot");
+    src: url("./fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/GothamProBold/GothamProBold.woff") format("woff"),
+    url("./fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "GothamProBlack"; */
+@font-face {
+    font-family: "GothamProBlack";
+    src: url("./fonts/GothamProBlack/GothamProBlack.eot");
+    src: url("./fonts/GothamProBlack/GothamProBlack.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
+    url("./fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "GothamProLight"; */
+@font-face {
+    font-family: "GothamProLight";
+    src: url("./fonts/GothamProLight/GothamProLight.eot");
+    src: url("./fonts/GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/GothamProLight/GothamProLight.woff") format("woff"),
+    url("./fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
 .site-header-main a {
     font-family: GothaPro;
