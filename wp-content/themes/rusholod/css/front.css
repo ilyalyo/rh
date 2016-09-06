@@ -1,0 +1,71 @@
+#main {
+    margin-top: -103px;
+}
+
+.bluenum {
+    font-size: 9em;
+    font-family: GothamProBlack;
+    color: rgb(33, 115, 252);
+    padding-right: 20pt;
+    margin-top: -20pt;
+}
+
+.bluenum-desc {
+    font-size: 2.4em;
+    font-family: GothamProLight;
+}
+
+.chapter {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-family: GothamProLight;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.text-over-pic {
+    letter-spacing: 2px;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.text-over-pic h2 {
+    font-family: GothamProBlack;
+    font-size: 2em;
+}
+
+.text-over-pic p {
+    font-family: GothamPro;
+    letter-spacing: 0px;
+    font-size: 1.7em;
+}
+
+.carousel-indicators {
+    position: absolute;
+    left: 10%;
+    z-index: 15;
+    list-style: none;
+    text-align: center;
+}
+
+.carousel-caption {
+    text-align: left !important;
+    top: 45%;
+    left: 5% !important;
+}
+
+.carousel-caption h3 {
+    font-family: GothamProBold;
+    font-size: 3.5em;
+}
+
+.pict-pad {
+    padding: 10pt 10pt 10pt 10pt;
+}

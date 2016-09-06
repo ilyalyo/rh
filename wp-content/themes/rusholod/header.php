@@ -29,7 +29,7 @@
         <header id="masthead" class="site-header" role="banner">
             <div class="site-header-main">
                 <div class="site-branding">
-                    <a href="<?php echo home_url() ?>" ><img src="../../../wp-includes/images/rusholod/logoB.png"></a>
+                    <a href="<?php echo home_url() ?>" ><img src="/wp-content/themes/rusholod/img/logoB.png"></a>
                     <?php twentysixteen_the_custom_logo(); ?>
 
                     <?php if (is_front_page() && is_home()) : ?>

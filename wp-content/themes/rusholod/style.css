@@ -1,3 +1,17 @@
+/* MAIN MENU */
+#masthead{
+    background-color: rgba(0, 0, 0, 0.2);;
+    margin-bottom: 30px;
+    z-index: 999;
+    position: relative;
+    width: 100%;
+}
+.primary-menu > li > a {
+    line-height: 50px;
+}
+/* END MAIN MENU */
+
+
 .menu-phone{
     font-weight: 600;
 }
@@ -149,13 +163,7 @@ ul{
 }
 /*###############END#########################*/
 
-#masthead{
-    background-color: rgba(0, 0, 0, 0.2);;
-    margin-bottom: 30px;
-    z-index: 10;
-    top: 0;
-    width: 100%;
-}
+
 .main-navigation a:focus {
     color: white;
 }

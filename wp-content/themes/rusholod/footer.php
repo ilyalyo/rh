@@ -65,7 +65,7 @@
     font-weight: 600;">info@rusholod.com <br> +7 (812) 677-93-82</h3>
                 <br>
                 <br>
-                <img src="../../../wp-includes/images/rusholod/iconVKFB.png">
+                <img src="/wp-content/themes/rusholod/img/iconVKFB.png">
             </div>
         </div>
     </div>
