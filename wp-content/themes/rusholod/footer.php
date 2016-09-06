@@ -1,15 +1,3 @@
-
-<!--<div class="site-header-main" style="z-index: 100">-->
-<!--    <div class="">-->
-<!--        footer-->
-<!--    </div>-->
-<!--    <div class="contacts">-->
-<!--        <h3>info@rusholod.com <br> +7 (812) 677-93-82</h3>-->
-<!--        <br>-->
-<!--        <img src="../../../wp-includes/images/rusholod/iconVKFB.png">-->
-<!--    </div>-->
-<!--</div>-->
-
 <?php
 /**
  * The template for displaying the footer
@@ -50,17 +38,37 @@
         </nav><!-- .social-navigation -->
     <?php endif; ?>
 
-    <div class="site-info" style="align-content: center;">
-        <div class="site-header-main" style="height: 100%;align-content: center;">
-            <div class="">
-                footer
-            </div>
-            <div class="contacts">
-                <h3>info@rusholod.com <br> +7 (812) 677-93-82</h3>
-                <br>
-                <img src="../../../wp-includes/images/rusholod/iconVKFB.png">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="background-color: #f9f9f9;">
+                <?php
+                    $menu_name = "main menu";
+                    $menu = wp_get_nav_menu_object( $menu_name );
+                    $menu_items = wp_get_nav_menu_items($menu->term_id);
+                    $menu_list = '<ul class="nav nav-pills" id="menu-' . $menu_name . '">';
+
+                    foreach ( (array) $menu_items as $key => $menu_item ) {
+                        if($menu_item->menu_item_parent != 0 || $menu_item->type_label == "Произвольная ссылка")
+                            continue;
+                        $title = $menu_item->title;
+                        $url = $menu_item->url;
+                        $menu_list .= '<li><a href="' . $url . '">' . $title . '</a></li>';
+                    }
+                echo $menu_list;
+                ?>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12 info">
+                <h3 style="color: black;
+    font-size: 16px;
+    font-weight: 600;">info@rusholod.com <br> +7 (812) 677-93-82</h3>
+                <br>
+                <br>
+                <img src="/wp-content/themes/rusholod/img/iconVKFB.png">
+            </div>
+        </div>
+    </div>
         <?php
         /**
          * Fires before the twentysixteen footer text for footer customization.
@@ -70,7 +78,6 @@
         do_action( 'twentysixteen_credits' );
         ?>
         <span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-        <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentysixteen' ), 'WordPress' ); ?></a>
     </div><!-- .site-info -->
 </footer><!-- .site-footer -->
 </div><!-- .site-inner -->
