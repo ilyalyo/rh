@@ -1,3 +1,6 @@
+.menu-phone{
+    font-weight: 600;
+}
 footer{
     padding: 0!important;
 }
@@ -28,10 +31,10 @@ footer .nav>li>a, footer .info{
     padding: 0!important;
 }
 header{
-    font-size: 20px;
+    font-size: 13pt;
 }
 .primary-menu a:after{
-    line-height: 3.5;
+    line-height: 3;
 }
 .img-components{
     display: block;

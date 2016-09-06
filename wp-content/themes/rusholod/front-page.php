@@ -99,7 +99,7 @@ get_header(); ?>
         </div>
 
         <div class="container"
-             style="background: url('../../../wp-includes/images/rusholod/1998-capt.png') no-repeat; background-position: right;
+             style="background: url('../../../wp-includes/images/rusholod/1998-capt.png') no-repeat; background-position: right;background-size: contain;
                 padding: 0 0 0 0; margin: 0 0 0 0;">
 
             <div class="row">
@@ -207,7 +207,7 @@ crossorigin = "anonymous" >
     }
 
     .bluenum {
-        font-size: 10.4em;
+        font-size: 9em;
         font-family: GothamProBlack;
         color: rgb(33, 115, 252);
         padding-right: 20pt;
@@ -269,11 +269,11 @@ crossorigin = "anonymous" >
     }
     #masthead{
          position: absolute;
-
      }
     .text-over-pic p{
-        font-family: GothamProRegular;
-        font-size: 1em;
+        font-family: GothamPro;
+        letter-spacing: 0px;
+        font-size: 1.7em;
     }
 
     .carousel-indicators {

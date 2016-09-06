@@ -48,7 +48,7 @@
                     $menu_list = '<ul class="nav nav-pills" id="menu-' . $menu_name . '">';
 
                     foreach ( (array) $menu_items as $key => $menu_item ) {
-                        if($menu_item->menu_item_parent != 0 || $menu_item->type_label == "Custom Link")
+                        if($menu_item->menu_item_parent != 0 || $menu_item->type_label == "Произвольная ссылка")
                             continue;
                         $title = $menu_item->title;
                         $url = $menu_item->url;
@@ -60,7 +60,10 @@
         </div>
         <div class="row">
             <div class="col-md-12 info">
-                <h3>info@rusholod.com <br> +7 (812) 677-93-82</h3>
+                <h3 style="color: black;
+    font-size: 16px;
+    font-weight: 600;">info@rusholod.com <br> +7 (812) 677-93-82</h3>
+                <br>
                 <br>
                 <img src="../../../wp-includes/images/rusholod/iconVKFB.png">
             </div>
