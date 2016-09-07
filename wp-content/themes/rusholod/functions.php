@@ -17,7 +17,7 @@ function enqueue_scripts()
     wp_enqueue_style('bootstrap-css', get_stylesheet_directory_uri() . '/vendor/bootstrap/bootstrap.css');
     wp_enqueue_script('bootstrap-js', get_stylesheet_directory_uri() . '/vendor/bootstrap/bootstrap.js', array(), '3.3.7', true);
 
-    wp_register_script('list', get_template_directory_uri() . '/js/list.js', array(), null, false);
+    wp_enqueue_script('list', get_stylesheet_directory_uri() . '/vendor/list/list.js', array(), '1.2.0', false);
 
     if (is_page('О нас'))
         wp_enqueue_style('front-page-style', get_stylesheet_directory_uri() . '/css/front.css');

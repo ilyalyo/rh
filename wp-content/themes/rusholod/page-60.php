@@ -32,7 +32,6 @@ foreach ($results as $result){
 }
 ?>
 </div>
-<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
 <script>
     var options = {
         valueNames: [ 'name' ]
