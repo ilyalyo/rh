@@ -69,3 +69,20 @@
 .pict-pad {
     padding: 10pt 10pt 10pt 10pt;
 }
+
+.main-navigation a:focus {
+    color: white !important;;
+}
+
+.main-navigation a {
+    color: white !important;;
+}
+
+#masthead {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border: 0 !important;
+}
+
+.main-navigation ul ul li {
+    background-color: #5e86ca !important;
+}
