@@ -19,7 +19,7 @@ function enqueue_scripts()
 
     wp_enqueue_script('list', get_stylesheet_directory_uri() . '/vendor/list/list.js', array(), '1.2.0', false);
 
-    if (is_page('О нас'))
+    if (is_home())
         wp_enqueue_style('front-page-style', get_stylesheet_directory_uri() . '/css/front.css');
 }
 

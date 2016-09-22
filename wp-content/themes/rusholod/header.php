@@ -29,7 +29,7 @@
         <header id="masthead" class="site-header" role="banner">
             <div class="site-header-main">
                 <div class="site-branding">
-                    <?php if(get_the_ID() == 5) : ?>
+                    <?php if(is_home()) : ?>
                         <a href="<?php echo home_url() ?>" ><img src="/wp-content/themes/rusholod/img/logoB.png"></a>
                     <?php else : ?>
                         <a href="<?php echo home_url() ?>" ><img src="/wp-content/themes/rusholod/img/logoB_old.png"></a>
