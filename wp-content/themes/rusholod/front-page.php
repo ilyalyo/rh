@@ -130,7 +130,6 @@ get_header(); ?>
                 </h3>
             </div>
         </div>
-
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
@@ -142,6 +141,12 @@ get_header(); ?>
                             <img src="/wp-content/themes/rusholod/img/sert3.jpg">
                         </div>
                     </div>
+                    <div class="row pict-pad">
+                        <img src="/wp-content/themes/rusholod/img/sert6.jpg">
+                    </div>
+                    <div class="row pict-pad">
+                        <img src="/wp-content/themes/rusholod/img/sert5.jpg">
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="row pict-pad">
@@ -150,10 +155,30 @@ get_header(); ?>
                     <div class="row pict-pad">
                         <img src="/wp-content/themes/rusholod/img/sert4.jpg">
                     </div>
+                    <div class="row pict-pad">
+                        <img src="/wp-content/themes/rusholod/img/sert7.jpg">
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="row pict-pad" style="margin-top: 75%;">
-                        <img src="/wp-content/themes/rusholod/img/sert5.jpg">
+
+                </div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+                    <div class="row pict-pad">
+                        <img src="/wp-content/themes/rusholod/img/sert8.jpg">
+                    </div>
+                    <div class="row pict-pad">
+                        <img src="/wp-content/themes/rusholod/img/sert9.jpg">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row pict-pad">
+                        <img src="/wp-content/themes/rusholod/img/sert10.jpg">
+                    </div>
+                    <div class="row pict-pad">
+                        <img src="/wp-content/themes/rusholod/img/sert11.jpg">
                     </div>
                 </div>
             </div>
@@ -161,7 +186,6 @@ get_header(); ?>
 
     </div>
 </main><!-- .site-main -->
-
 <script>
     jQuery(function ($) {
         $(document).ready(function () {
