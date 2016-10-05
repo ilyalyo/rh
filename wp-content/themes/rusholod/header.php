@@ -29,11 +29,8 @@
         <header id="masthead" class="site-header" role="banner">
             <div class="site-header-main">
                 <div class="site-branding">
-                    <?php if(is_home()) : ?>
-                        <a href="<?php echo home_url() ?>" ><img src="/wp-content/themes/rusholod/img/logoB.png"></a>
-                    <?php else : ?>
-                        <a href="<?php echo home_url() ?>" ><img src="/wp-content/themes/rusholod/img/logoB_old.png"></a>
-                    <?php endif; ?>
+                    <a href="<?php echo home_url() ?>" ><img src="/wp-content/themes/rusholod/img/logoB.png"></a>
+                   
                     <?php twentysixteen_the_custom_logo(); ?>
 
                     <?php if (is_front_page() && is_home()) : ?>
